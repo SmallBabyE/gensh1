@@ -1,0 +1,199 @@
+body {
+    background: beige;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.style{
+   color: white ;
+    max-width: 950px;
+    margin: auto;
+
+}
+.gan {
+    display: flex;
+    color: black;
+    background-color: rgb(206, 255, 255);
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    box-shadow:4px 4px 14px rgba(0,0,0,0.25)
+}
+.photo-gan {
+    width: 400px;
+    border-radius: 25px;
+    box-shadow:4px 4px 14px rgba(0,0,0,0.25)
+}
+.talant-gan {
+    margin-left: 150px;
+}
+.raiden{
+    display: flex;
+    background-color: violet;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    box-shadow:4px 4px 14px rgba(0,0,0,0.25)
+}
+.photo-rai {
+    width: 400px;
+    border-radius: 25px;
+    box-shadow:4px 4px 14px rgba(0,0,0,0.25)
+}
+.talant-rai {
+    margin-left: 150px;
+}
+.yaemiko {
+    display: flex;
+    background-color: violet;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    box-shadow:4px 4px 14px rgba(0,0,0,0.25)
+}
+.photo-yae {
+    width: 400px;
+    border-radius: 25px;
+    box-shadow:4px 4px 14px rgba(0,0,0,0.25)
+}
+.talant-yae {
+    margin-left: 150px;
+}
+.kokomi {
+    display: flex;
+    background-color: skyblue;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    box-shadow:4px 4px 14px rgba(0,0,0,0.25)
+}
+.photo-kokomi {
+    width: 400px;
+    border-radius: 25px;
+    box-shadow:4px 4px 14px rgba(0,0,0,0.25)
+}
+.talant-koko {
+    margin-left: 150px;
+    color: black;
+}
+
+@media (max-width: 1080px) {
+    .gan {
+        display: block;
+        text-align: center;
+    }
+    .photo-gan {
+        width: 400px;
+
+        }
+    .talant-gan {
+        text-align: center;
+        display: block;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 720px) {
+    .gan {
+        display: block;
+        text-align: center;
+    }
+    .photo-gan {
+        width: 300px;
+
+        }
+    .talant-gan {
+        text-align: center;
+        display: block;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 1080px) {
+    .raiden {
+        display: block;
+        text-align: center;
+    }
+    .photo-rai {
+        width: 400px;
+
+        }
+    .talant-raiden {
+        text-align: center;
+        display: block;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 720px) {
+    .raiden {
+        display: block;
+        text-align: center;
+    }
+    .photo-rai {
+        width: 300px;
+
+        }
+    .talant-rai {
+        text-align: center;
+        display: block;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .yaemiko {
+        display: block;
+        text-align: center;
+    }
+    .photo-yae {
+        width: 400px;
+
+        }
+    .talant-yae {
+        text-align: center;
+        display: block;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 720px) {
+    .yaemiko {
+        display: block;
+        text-align: center;
+    }
+    .photo-yae {
+        width: 300px;
+
+        }
+    .talant-yae {
+        text-align: center;
+        display: block;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 1080px) {
+    .kokomi {
+        display: block;
+        text-align: center;
+    }
+    .photo-kokomi {
+        width: 400px;
+
+        }
+    .talant-koko {
+        text-align: center;
+        display: block;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 720px) {
+    .kokomi {
+        display: block;
+        text-align: center;
+    }
+    .photo-kokomi {
+        width: 300px;
+
+        }
+    .talant-koko {
+        text-align: center;
+        display: block;
+        margin-left: 0px;
+    }
+}
